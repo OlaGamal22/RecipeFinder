@@ -1,0 +1,13 @@
+.btnDetails {
+    width: 100% !important;
+    border-radius: 0%;
+    border-top-left-radius: initial;
+    border-top-right-radius: initial;
+    border-bottom-left-radius: 0.15cm;
+    border-bottom-right-radius: 0.15cm;
+    margin-bottom: 0px !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}

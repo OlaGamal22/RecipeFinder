@@ -1,0 +1,74 @@
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style the recipe title */
+
+.recipe-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+/* Style the image */
+
+.recipe-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+/* Style the section headings */
+
+.section-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Style the list of ingredients */
+
+.ingredients-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ingredients-list li {
+    margin-bottom: 5px;
+}
+
+
+/* Style the steps/instructions */
+
+.recipe-steps {
+    line-height: 1.6;
+}
+
+.go-back-button {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    z-index: 1;
+    /* Ensure it's above the other content */
+}

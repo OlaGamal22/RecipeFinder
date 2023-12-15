@@ -1,0 +1,30 @@
+<div>
+    <button class="go-back-button" (click)="goToRecipesPage()">Go Back</button>
+</div>
+
+<div class="favorite-icon">
+    <span (click)="toggleFavorite(recipeDetails)">
+        <i [ngClass]="isInFavorites(recipeDetails) ? 'fas fa-heart' : 'far fa-heart'" style="color: orange; font-size: 34px;"></i>
+    </span>
+</div>
+
+<div class="recipe-container">
+    <h2 class="recipe-title">{{ recipeDetails.title }}</h2>
+    <img [src]="recipeDetails.image" alt="{{ recipeDetails.title }}" class="recipe-image">
+
+    <h3 class="section-heading">Ingredients</h3>
+    <div>
+        <ul class="ingredients-list">
+            <li *ngFor="let ingredient of recipeDetails.extendedIngredients">{{ ingredient.original }}</li>
+        </ul>
+    </div>
+
+    <h3 class="section-heading">Steps</h3>
+    <div [innerHTML]="recipeDetails.instructions" class="recipe-steps">
+
+    </div>
+</div>
+
+<div class="text-center">
+    <button class="btn btn-primary btn-block my-5 px-4" (click)="goToRecipesPage()">Go Back</button>
+</div>
