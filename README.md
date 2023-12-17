@@ -51,5 +51,6 @@ This application is a Recipe App developed using Angular. It allows users to bro
 
 ## Improvements & Future Work
 
-1. **Unit Testing:** Implement comprehensive unit tests for components and services.
-2. **Additional Features:** Add user authentication, user-specific favorite lists, or user profiles.
+1. **Firestore database:** Create firestore database to store data instead of using local storage.
+2. **Unit Testing:** Implement comprehensive unit tests for components and services.
+3. **Additional Features:** Add user authentication, user-specific favorite lists, or user profiles.
